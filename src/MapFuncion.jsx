@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function MapFuncion() {
     const users =[
       
@@ -68,7 +69,9 @@ function MapFuncion() {
 
   return (
     <>
-    <div className='ml-80 mt-10 text-3xl font-bold'>MapFuncion</div>
+   
+    <div className='ml-80 mt-10 text-3xl font-bold'>MapFuncion</div> 
+    
     <table border="1" className=" ml-80 mt-10" >
   <thead>
     <tr className='border border-black'>
