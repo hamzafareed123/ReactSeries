@@ -1,3 +1,3 @@
-import { createContext, useContext } from "react"
+import { createContext, useContext } from "react";
 
-export const Data = createContext('Math');
+export const Data = createContext("Math");
