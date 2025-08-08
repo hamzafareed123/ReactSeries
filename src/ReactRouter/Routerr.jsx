@@ -11,6 +11,7 @@ import Department from './Department'
 import Student from './Student'
 import Users from './Users'
 import UserDetails from './UserDetails'
+import EditUser from '../API/editUser'
 
 function Routerr() {
   return (
@@ -29,6 +30,7 @@ function Routerr() {
         </Route>
         <Route path='/Users' element={<Users/>}/>
         <Route path='/Users/:id' element={<UserDetails/>}/>
+      
          <Route path='/*' element={<PageNotFound/>}/>
     </Routes>
     </>
