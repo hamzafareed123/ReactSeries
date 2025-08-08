@@ -8,6 +8,7 @@ import UseActionState from "./useActionState";
 import ContextProvider from "./ContextAPI/ContextProvider";
 import Routerr from "./ReactRouter/Routerr";
 import API from "./API/API";
+import UseReducer from "./useReducer";
 
 
 function App() {
@@ -24,7 +25,10 @@ function App() {
       <ContextProvider /> 
       <Routerr/> */}
       
-      <API/>
+      {/* <API/> */}
+
+      <UseReducer/>
+
     </>
   );
 }
