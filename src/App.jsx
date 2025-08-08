@@ -7,6 +7,7 @@ import UseForm from "./useForm";
 import UseActionState from "./useActionState";
 import ContextProvider from "./ContextAPI/ContextProvider";
 import Routerr from "./ReactRouter/Routerr";
+import API from "./API";
 
 function App() {
   const [name, setName] = useState("");
@@ -19,9 +20,10 @@ function App() {
       <UseRef />
       <UseForm />
       <UseActionState />
-      <ContextProvider /> */}
+      <ContextProvider /> 
+      <Routerr/> */}
 
-      <Routerr/>
+      <API/>
     </>
   );
 }

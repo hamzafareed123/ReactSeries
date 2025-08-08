@@ -1,18 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 
 function NavBar() {
   return (
     
     <div className='w-full bg-blue-500 text-white p-7'>
       <div className='flex gap-5 justify-end  pr-20 font-bold'>
-    <Link to='/'>Home</Link>
+    <NavLink to='/' className={({ isActive }) => isActive ? 'text-black font-bold' : ''}>Home </NavLink>
     <br />
-    <Link to='/about'>About</Link>
+    <NavLink to='/about' className={({isActive})=> isActive ? 'text-black fontbold': ''}>About</NavLink>
     <br/>
      <Link to='/login'>Login</Link>
      <br/>
      <Link to='/College'>College</Link>
+      <br/>
+     <Link to='/Users'>Users</Link>
     </div>
     </div>
   )
